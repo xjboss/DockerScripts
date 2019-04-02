@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8-openj9
+FROM adoptopenjdk/openjdk8-openj9:alpine-nightly
 
 ARG user=MusicBot
 ARG group=MusicBot
