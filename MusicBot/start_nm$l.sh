@@ -1,9 +1,9 @@
 #! /bin/bash -e
 # Original config create by jenkins mit license
 # if `docker run` first argument start with `--` the user is passing jenkins launcher arguments
-set APP_HOME=$BOT_HOME
-set APP_OPTS=$BOT_OPTS
-set APP_JAR=$JMUSICBOT_APP
+APP_HOME=${BOT_HOME}
+APP_OPTS=${BOT_OPTS}
+APP_JAR=${JMUSICBOT_APP}
 cd $APP_HOME
 
   # read JAVA_OPTS and BOT_OPTS into arrays to avoid need for eval (and associated vulnerabilities)
